@@ -51,9 +51,10 @@
             this.pnlFooter.BackColor = System.Drawing.Color.Teal;
             this.pnlFooter.Controls.Add(this.lblFooter);
             this.pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFooter.Location = new System.Drawing.Point(0, 417);
+            this.pnlFooter.Location = new System.Drawing.Point(0, 513);
+            this.pnlFooter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlFooter.Name = "pnlFooter";
-            this.pnlFooter.Size = new System.Drawing.Size(1192, 34);
+            this.pnlFooter.Size = new System.Drawing.Size(1589, 42);
             this.pnlFooter.TabIndex = 0;
             // 
             // lblFooter
@@ -61,14 +62,16 @@
             this.lblFooter.AutoSize = true;
             this.lblFooter.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFooter.ForeColor = System.Drawing.Color.White;
-            this.lblFooter.Location = new System.Drawing.Point(586, 8);
+            this.lblFooter.Location = new System.Drawing.Point(781, 10);
+            this.lblFooter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFooter.Name = "lblFooter";
-            this.lblFooter.Size = new System.Drawing.Size(169, 17);
+            this.lblFooter.Size = new System.Drawing.Size(212, 23);
             this.lblFooter.TabIndex = 0;
-            this.lblFooter.Text = "Developed By: VIJAY THAPA";
+            this.lblFooter.Text = "Developed By: Afifa Fatima";
             // 
             // menuStripTop
             // 
+            this.menuStripTop.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStripTop.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usersToolStripMenuItem,
             this.categoryToolStripMenuItem,
@@ -78,49 +81,49 @@
             this.transactionToolStripMenuItem});
             this.menuStripTop.Location = new System.Drawing.Point(0, 0);
             this.menuStripTop.Name = "menuStripTop";
-            this.menuStripTop.Size = new System.Drawing.Size(1192, 24);
+            this.menuStripTop.Size = new System.Drawing.Size(1589, 28);
             this.menuStripTop.TabIndex = 1;
             this.menuStripTop.Text = "menuStrip1";
             // 
             // usersToolStripMenuItem
             // 
             this.usersToolStripMenuItem.Name = "usersToolStripMenuItem";
-            this.usersToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.usersToolStripMenuItem.Size = new System.Drawing.Size(58, 24);
             this.usersToolStripMenuItem.Text = "Users";
             this.usersToolStripMenuItem.Click += new System.EventHandler(this.usersToolStripMenuItem_Click);
             // 
             // categoryToolStripMenuItem
             // 
             this.categoryToolStripMenuItem.Name = "categoryToolStripMenuItem";
-            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
             this.categoryToolStripMenuItem.Text = "Category";
             this.categoryToolStripMenuItem.Click += new System.EventHandler(this.categoryToolStripMenuItem_Click);
             // 
             // productsToolStripMenuItem
             // 
             this.productsToolStripMenuItem.Name = "productsToolStripMenuItem";
-            this.productsToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.productsToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
             this.productsToolStripMenuItem.Text = "Products";
             this.productsToolStripMenuItem.Click += new System.EventHandler(this.productsToolStripMenuItem_Click);
             // 
             // deealerAndCustomerToolStripMenuItem
             // 
             this.deealerAndCustomerToolStripMenuItem.Name = "deealerAndCustomerToolStripMenuItem";
-            this.deealerAndCustomerToolStripMenuItem.Size = new System.Drawing.Size(136, 20);
+            this.deealerAndCustomerToolStripMenuItem.Size = new System.Drawing.Size(171, 24);
             this.deealerAndCustomerToolStripMenuItem.Text = "Deealer and Customer";
             this.deealerAndCustomerToolStripMenuItem.Click += new System.EventHandler(this.deealerAndCustomerToolStripMenuItem_Click);
             // 
             // inventoryToolStripMenuItem
             // 
             this.inventoryToolStripMenuItem.Name = "inventoryToolStripMenuItem";
-            this.inventoryToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.inventoryToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.inventoryToolStripMenuItem.Text = "Inventory";
             this.inventoryToolStripMenuItem.Click += new System.EventHandler(this.inventoryToolStripMenuItem_Click);
             // 
             // transactionToolStripMenuItem
             // 
             this.transactionToolStripMenuItem.Name = "transactionToolStripMenuItem";
-            this.transactionToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
+            this.transactionToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
             this.transactionToolStripMenuItem.Text = "Transaction";
             this.transactionToolStripMenuItem.Click += new System.EventHandler(this.transactionToolStripMenuItem_Click);
             // 
@@ -128,9 +131,10 @@
             // 
             this.lblUser.AutoSize = true;
             this.lblUser.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Location = new System.Drawing.Point(13, 41);
+            this.lblUser.Location = new System.Drawing.Point(17, 50);
+            this.lblUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(42, 17);
+            this.lblUser.Size = new System.Drawing.Size(53, 23);
             this.lblUser.TabIndex = 2;
             this.lblUser.Text = "User: ";
             // 
@@ -139,18 +143,20 @@
             this.lblLoggedInUser.AutoSize = true;
             this.lblLoggedInUser.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLoggedInUser.ForeColor = System.Drawing.Color.LimeGreen;
-            this.lblLoggedInUser.Location = new System.Drawing.Point(47, 41);
+            this.lblLoggedInUser.Location = new System.Drawing.Point(63, 50);
+            this.lblLoggedInUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLoggedInUser.Name = "lblLoggedInUser";
-            this.lblLoggedInUser.Size = new System.Drawing.Size(0, 17);
+            this.lblLoggedInUser.Size = new System.Drawing.Size(0, 23);
             this.lblLoggedInUser.TabIndex = 3;
             // 
             // lblAppFName
             // 
             this.lblAppFName.AutoSize = true;
             this.lblAppFName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAppFName.Location = new System.Drawing.Point(598, 266);
+            this.lblAppFName.Location = new System.Drawing.Point(797, 327);
+            this.lblAppFName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAppFName.Name = "lblAppFName";
-            this.lblAppFName.Size = new System.Drawing.Size(69, 37);
+            this.lblAppFName.Size = new System.Drawing.Size(86, 46);
             this.lblAppFName.TabIndex = 4;
             this.lblAppFName.Text = "ANY";
             // 
@@ -158,9 +164,10 @@
             // 
             this.lblLName.AutoSize = true;
             this.lblLName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLName.Location = new System.Drawing.Point(656, 266);
+            this.lblLName.Location = new System.Drawing.Point(875, 327);
+            this.lblLName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLName.Name = "lblLName";
-            this.lblLName.Size = new System.Drawing.Size(99, 37);
+            this.lblLName.Size = new System.Drawing.Size(124, 46);
             this.lblLName.TabIndex = 5;
             this.lblLName.Text = "STORE";
             // 
@@ -169,17 +176,18 @@
             this.lblSHead.AutoSize = true;
             this.lblSHead.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSHead.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.lblSHead.Location = new System.Drawing.Point(525, 303);
+            this.lblSHead.Location = new System.Drawing.Point(700, 373);
+            this.lblSHead.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSHead.Name = "lblSHead";
-            this.lblSHead.Size = new System.Drawing.Size(311, 25);
+            this.lblSHead.Size = new System.Drawing.Size(395, 32);
             this.lblSHead.TabIndex = 6;
             this.lblSHead.Text = "Billing and Inventory Management";
             // 
             // frmAdminDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1192, 451);
+            this.ClientSize = new System.Drawing.Size(1589, 555);
             this.Controls.Add(this.lblSHead);
             this.Controls.Add(this.lblLName);
             this.Controls.Add(this.lblAppFName);
@@ -188,6 +196,7 @@
             this.Controls.Add(this.pnlFooter);
             this.Controls.Add(this.menuStripTop);
             this.MainMenuStrip = this.menuStripTop;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmAdminDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin Dashboard";

@@ -16,3 +16,25 @@ c:\users\chishti\documents\visual studio 2015\Projects\Store\Store\bin\Debug\Sto
 c:\users\chishti\documents\visual studio 2015\Projects\Store\Store\bin\Debug\Store.pdb
 c:\users\chishti\documents\visual studio 2015\Projects\Store\Store\obj\Debug\Store.exe
 c:\users\chishti\documents\visual studio 2015\Projects\Store\Store\obj\Debug\Store.pdb
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\bin\Debug\Store.exe.config
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\bin\Debug\Store.exe
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\bin\Debug\Store.pdb
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.csproj.AssemblyReference.cache
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.Properties.Resources.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.frmAdminDashboard.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.UI.frmCategories.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.UI.frmDeaCust.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.UI.frmInventory.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.UI.frmLogin.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.UI.frmProducts.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.UI.frmPurchaseAndSales.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.UI.frmTransactions.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.frmUserDashboard.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.UI.frmUsers.resources
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.csproj.GenerateResource.cache
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.csproj.CoreCompileInputs.cache
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.exe
+C:\Users\shabahat.ali\source\repos\Inventory-Management-System\Store\obj\Debug\Store.pdb
+C:\Users\naveed\Desktop\Inventory-Management-System\Inventory-Management-System\Store\obj\Debug\Store.csprojAssemblyReference.cache
+C:\Users\naveed\Desktop\Inventory-Management-System\Inventory-Management-System\Store\obj\Debug\Store.exe
+C:\Users\naveed\Desktop\Inventory-Management-System\Inventory-Management-System\Store\obj\Debug\Store.pdb
